@@ -1,0 +1,20 @@
+body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*p {
+  margin: 0 0 10px;
+  display: block;
+}*/
+
+.header, .footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.row {
+  margin: 0 5px;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+}

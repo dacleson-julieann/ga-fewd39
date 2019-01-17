@@ -1,0 +1,45 @@
+body {
+  padding: 2%;
+  height: 400px;
+  width: 400px;
+  margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+div {
+  border: 1px solid black;
+}
+.stack01 {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+.stack02 {
+  background-color: blue;
+  height: 80%;
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  /*top: 13%;
+  left: 13%;*/
+  position: relative;
+}
+.stack03 {
+  background-color: green;
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  position: relative;
+}
+.stack04 {
+  background-color: yellow;
+  height: 60%;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20%;
+  position: absolute;
+}

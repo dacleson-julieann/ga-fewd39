@@ -1,0 +1,46 @@
+
+/*body {
+  margin: 0 40px auto;
+}*/
+
+.col-md-1, .col-md-8, .col-md-4, .col-md-6 {
+  border: 1px black solid;
+  margin-bottom: 10px;
+  background-color: #ccccff;
+}
+
+.wrapper {
+  .make-row();
+}
+.content-main {
+  .make-lg-column(8);
+}
+.content-secondary {
+  .make-lg-column(3);
+  .make-lg-column-offset(1);
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: 768px) {
+  body {
+    background-color:red;
+  }
+}*/
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: 992px) {
+  body {
+    background-color:yellow;
+  }
+}*/
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {
+  body {
+    background-color:orange;
+  }
+}*/

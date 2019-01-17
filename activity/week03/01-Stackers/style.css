@@ -1,0 +1,29 @@
+body {
+  padding: 2%;
+  margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+div {
+  border: 1px solid black;
+}
+.stack01 {
+  background-color: red;
+  height: 100px;
+  width: 30%;
+  margin-left: 10%;
+}
+.stack02 {
+  background-color: blue;
+  height: 100px;
+  width: 30%;
+  margin-left: 20%;
+}
+.stack03 {
+  background-color: green;
+  height: 100px;
+  width: 30%;
+  margin-left: 30%;
+}

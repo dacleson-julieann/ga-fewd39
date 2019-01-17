@@ -1,0 +1,116 @@
+body {
+	margin:0;
+	margin-bottom:40px;
+}
+
+h2 {
+	margin:0;
+}
+
+.txt-center {
+	text-align:center;
+}
+
+.margin-top-20 {
+	margin-top:20px;
+}
+
+.banner {
+	background:url(../img/bg3.jpg) no-repeat;
+	background-size:cover;
+	width:100%;
+	position:relative;
+	background-attachment: fixed;
+}
+
+.fixed-top {
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+.navbar {
+	width:100%;
+	height:60px;
+	/*background-color:black;*/
+	background: rgba(0, 0, 0, 0.5);
+	z-index:9999;
+}
+
+.navbar-brand {
+	color:#FFF;
+	line-height:60px;
+	margin-left:20px;
+	font-weight:700;
+	font-style:italic;
+	font-size:30px;
+	font-family: 'Awesome', cursive;
+	/*adding font-family style what happen to this font family*/
+}
+
+.container {
+	width:100%;
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+.user-info-container {
+	position:absolute;
+	top:55%;
+	/*change margin of top??*/
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+.col-6 {
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+	padding:0 10px;
+}
+
+/*what do you need to add here to make the columns line up next to each other and also take up 1/3 of the width each
+*/
+.col-4 {
+	float:left;
+	width:33.33%;
+	box-sizing:border-box;
+	padding:0 10px;
+}
+
+.headshot img {
+	width:60%;
+	border-radius:100%;
+	display:block;
+	border:#CCC 4px solid;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.user-info-text {
+	border-radius:5px;
+	padding:15px;
+	margin-top: 20px;
+	color:#FFF;
+	font-family: cursive;
+	background: linear-gradient(to bottom right, black, grey);
+}
+
+.margin-top-50 {
+	margin-top:50px;
+}
+
+.hero-icon {
+	font-size:100px;
+}
+
+.hero-icon i:hover {
+	color:#06C;
+	cursor:pointer;
+}
+
+.hero-text {
+	font-size:1.2em;
+}
