@@ -1,0 +1,158 @@
+/*Designing the Body layout*/
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	/*padding: 5%;*/
+	width: 80%;
+	max-width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+/*declaring the color of the heading 1 of link a*/
+h1 a {
+	color: #E00;
+}
+
+h1 {
+	font-size: 48pt;
+	color: #C00;
+	font-family: Papyrus, fantasy;
+	display: inline-block;
+	margin top: 2%;
+}
+			/*The display property allows
+			you to turn an inline element
+			into a block-level element or vice
+			versa, and can also be used to
+			hide an element from the page.
+			--- inline-block ---
+			This causes a block-level
+			element to flow like an inline
+			element, while retaining other
+			features of a block-level element.
+			*/
+
+/*Styling the heading 2*/
+h2 {
+	font-size: 24pt;
+	display: inline-block;
+	font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+	margin: 2px 0 2px 0;
+}
+nav ul {
+  margin: 0px; /*this one ok 10px 0 30px 0; */
+  padding: 0; /*this one ok*/
+  /*float: left;*/
+  /*background-color: black;*/
+  list-style-type: none; /*this one ok*/
+  /*width: 100%;*/
+}
+nav li {
+	margin: 15px 0px;
+	background-color: black;
+	height: 50px;
+  padding: 15px;/*10px 30px;*/
+  float: left; /*this one ok*/
+  border-right: 1px solid #bbb; /*this one ok*/
+  width: 16.667%; /*this one ok*/
+  text-align: center; /*this one ok*/
+  box-sizing: border-box; /*this one ok*/
+}
+/*Removing the underline of the link*/
+a {
+  text-decoration: none;
+  color: white;
+}
+.left h2 a {
+	font-size: 24pt;
+	display: inline-block;
+	font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+	margin: 2px 0 2px 0;
+	color: Black;
+}
+h3 {
+	font-size: 24pt;
+	color: #999;
+	margin: 2px 0 2px 0;
+}
+p {
+	font-size: 16pt;
+}
+h4 {
+	font-size: 18pt;
+}
+h4 a {
+	font-size: 18pt;
+	font-weight: bold;
+	color: #C00;
+	float: right;
+	clear: both;
+	/*The clear property allows you
+	to say that no element (within
+	the same containing element)
+	should touch the left or righthand
+	sides of a box.
+	--- both ---
+	Neither the left nor right-hand
+	sides of the box will touch
+	elements appearing in the same
+	containing element.*/
+}
+li {
+	font-size: 14pt;
+}
+hr {
+	clear: both;
+	margin-bottom: 30px;
+}
+
+header nav a:hover {
+  color: #cc3333;
+  /*background-color: #ffffff;*/
+  /*text-decoration: underline;*/
+  /*text-transform: uppercase;*/
+  /*font-weight: bolder;*/
+}
+.firstLetter {
+	font-size: 5em;
+	line-height: 1;
+	color: #999;
+	margin: -.1em .1em 0 -.1em;
+	vertical-align: text-bottom;
+	float: left;
+}
+.left {
+	float: left;
+	width: 60%;
+	margin-top: 30px;
+}
+.right {
+	float: right;
+	width: 30%;
+	padding-right: 3%;
+}
+.ad {
+	background-color: #CCC;
+	height: 350px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "MS Serif", "New York", serif;
+	/*font-size: 36pt;*/
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	/*padding-top: 125px;*/
+}
+.right ul li a {
+	color: #C00;
+}
+footer {
+	clear: both;
+	float: left;
+	font-size: 14pt;
+}
+footer nav a {
+	color: #C00;
+}

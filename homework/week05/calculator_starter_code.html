@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Math - Two Integers</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { font-size: 20px; font-family: sans-serif; }
+
+      td { width: 100px; text-align: center; }
+      .placeholder, button { width: 100%; }
+      .placeholder { height: 23px; border: 1px solid #bababa; border-radius: 3px; }
+      button { cursor: pointer; border: 1px solid #58c0f5; color: #58c0f5; background-color: white; font: inherit; }
+      button { background-color: #58c0f5; color: white; border-radius: 3px; }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <input type="text" class="first-operand placeholder" id="inputOne">
+          <!-- I declare a new id name for this first input -->
+        </td>
+        <td>
+          <input type="text" class="second-operand placeholder" id="inputTwo">
+          <!-- I declare a new id name for this second input -->
+        </td>
+        <td>
+          =
+        </td>
+        <td>
+          <input type="text" class="result placeholder" disabled id="answerIs">
+          <!-- I declare a new id name for this third input -->
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="add-button inverted-button" id="addTwoAdd">+</button>
+        </td>
+        <td>
+          <button class="subtract-button inverted-button" id="subTwoSub">-</button>
+        </td>
+        <td>
+          <button class="multiply-button inverted-button" id="multiTwoMulti">*</button>
+        </td>
+        <td>
+          <button class="divide-button inverted-button" id="divTwoDiv">/</button>
+        </td>
+      </tr>
+    </table>
+
+    <script>
+    // Your code goes here.
+    // add of two integers - two input box
+      var addTwo = document.querySelector("#addTwoAdd");
+      function buttonClickedAdd() {
+        // alert("ADD - testing");
+        var inputOne = parseInt(document.getElementById("inputOne").value);
+        var inputTwo = parseInt(document.getElementById("inputTwo").value);
+        var resultAdd = console.log(inputOne + inputTwo);
+        // alert(inputOne + inputTwo);
+        document.getElementById("answerIs").value = inputOne + inputTwo;
+      }
+      addTwo.addEventListener("click",buttonClickedAdd);
+    // subtract of two integers - two input box
+      var subTwo = document.querySelector("#subTwoSub");
+      function buttonClickedSub() {
+        // alert("SUB - testing");
+        var inputOne = parseInt(document.getElementById("inputOne").value);
+        var inputTwo = parseInt(document.getElementById("inputTwo").value);
+        var resultAdd = console.log(inputOne - inputTwo);
+        // alert(inputOne - inputTwo);
+        document.getElementById("answerIs").value = inputOne - inputTwo;
+      }
+      subTwo.addEventListener("click",buttonClickedSub);
+    // multiply of two integers - two input box
+      var multiTwo = document.querySelector("#multiTwoMulti");
+      function buttonClickedMulti() {
+        // alert("MULTI - testing");
+        var inputOne = parseInt(document.getElementById("inputOne").value);
+        var inputTwo = parseInt(document.getElementById("inputTwo").value);
+        var resultAdd = console.log(inputOne * inputTwo);
+        // alert(inputOne * inputTwo);
+        document.getElementById("answerIs").value = inputOne * inputTwo;
+      }
+      multiTwo.addEventListener("click",buttonClickedMulti);
+    // divide of two integers - two input box
+      var divTwo = document.querySelector("#divTwoDiv");
+      function buttonClickedDiv() {
+        // alert("DIV - testing");
+        var inputOne = parseInt(document.getElementById("inputOne").value);
+        var inputTwo = parseInt(document.getElementById("inputTwo").value);
+        var resultAdd = console.log(inputOne / inputTwo);
+        // alert(inputOne / inputTwo);
+        document.getElementById("answerIs").value = inputOne / inputTwo;
+      }
+      divTwo.addEventListener("click",buttonClickedDiv);
+    </script>
+
+  </body>
+</html>
